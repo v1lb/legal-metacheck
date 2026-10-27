@@ -1,90 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MetaCheck — Legal Documents</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #212529;
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MetaCheck Support & Legal</title>
+  <meta name="description" content="Support, FAQ, Privacy Policy, and Terms of Use for MetaCheck photo metadata tools.">
+  <style>
+    :root { color-scheme: light dark; }
+    body { max-width: 760px; margin: 0 auto; padding: 28px 18px; font: 16px/1.6 system-ui, sans-serif; }
+    h1, h2, h3 { line-height: 1.2; } 
+    a { overflow-wrap: anywhere; }
+    .note { padding: 12px 16px; border-left: 3px solid currentColor; }
+    
+    /* Стили для блока документов */
+    .legal-box {
+        background: rgba(0, 0, 0, 0.03);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        padding: 20px;
+        margin: 25px 0;
+    }
+    @media (prefers-color-scheme: dark) {
+        .legal-box {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.1);
         }
-        .container {
-            max-width: 600px;
-            width: 100%;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    .doc-section {
+        margin-bottom: 16px;
+    }
+    .doc-section:last-child {
+        margin-bottom: 0;
+    }
+    .section-title {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        opacity: 0.6;
+        margin-bottom: 8px;
+        font-weight: 700;
+    }
+    .links-group {
+        display: flex;
+        gap: 10px;
+    }
+    .btn-link {
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.05);
+        color: inherit;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+    @media (prefers-color-scheme: dark) {
+        .btn-link {
+            background-color: rgba(255, 255, 255, 0.1);
         }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 8px;
-            color: #1a1a1a;
+    }
+    .btn-link:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    @media (prefers-color-scheme: dark) {
+        .btn-link:hover {
+            background-color: rgba(255, 255, 255, 0.15);
         }
-        .subtitle {
-            font-size: 14px;
-            color: #6c757d;
-            margin-bottom: 30px;
-        }
-        .doc-section {
-            margin-bottom: 24px;
-        }
-        .section-title {
-            font-size: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #adb5bd;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-        .links-group {
-            display: flex;
-            gap: 12px;
-        }
-        a {
-            flex: 1;
-            text-align: center;
-            padding: 12px;
-            background-color: #f1f3f5;
-            color: #495057;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.2s ease;
-        }
-        a:hover {
-            background-color: #e9ecef;
-            color: #212529;
-        }
-    </style>
+    }
+    
+    footer { margin-top: 48px; font-size: .9em; opacity: .6; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 15px; }
+    @media (prefers-color-scheme: dark) { footer { border-color: rgba(255,255,255,0.1); } }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>MetaCheck</h1>
-        <div class="subtitle">Legal Documents & Policies</div>
-        
-        <div class="doc-section">
-            <div class="section-title">Privacy Policy</div>
-            <div class="links-group">
-                <a href="PRIVACY_POLICY_EN.md">English Version</a>
-                <a href="PRIVACY_POLICY_RU.md">Русская версия</a>
-            </div>
-        </div>
-
-        <div class="doc-section">
-            <div class="section-title">Terms of Service</div>
-            <div class="links-group">
-                <a href="TERMS_EN.md">English Version</a>
-                <a href="TERMS_RU.md">Русская версия</a>
-            </div>
+  <h1>MetaCheck Support</h1>
+  <p>Help with photo metadata, GPS privacy, image copies and Pro features.</p>
+  
+  <!-- ОБЪЕДИНЕННЫЙ БЛОК ДОКУМЕНТОВ -->
+  <div class="legal-box">
+    <div class="doc-section">
+        <div class="section-title">Privacy Policy</div>
+        <div class="links-group">
+            <a class="btn-link" href="PRIVACY_POLICY_EN.md">English Version</a>
+            <a class="btn-link" href="PRIVACY_POLICY_RU.md">Русская версия</a>
         </div>
     </div>
+    <div class="doc-section" style="margin-top: 15px;">
+        <div class="section-title">Terms of Use</div>
+        <div class="links-group">
+            <a class="btn-link" href="TERMS_EN.md">English Version</a>
+            <a class="btn-link" href="TERMS_RU.md">Русская версия</a>
+        </div>
+    </div>
+  </div>
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:werk9886@gmail.com">werk9886@gmail.com</a></p>
+  <p>When contacting support, include your device model, Android version, MetaCheck version and the steps needed to reproduce the issue. Do not email private photos or sensitive metadata unless absolutely necessary.</p>
+
+  <h2>Frequently asked questions</h2>
+  <h3>Does MetaCheck detect AI-generated images from the image itself?</h3>
+  <p>No. The current analysis looks for indicators in supported metadata. Metadata can be absent, edited or removed. Results are not proof of an image's origin or authenticity.</p>
+
+  <h3>Does MetaCheck upload my photos?</h3>
+  <p>The app processes the selected image on your device and does not upload the image itself. If you configure an API endpoint and explicitly send a JSON report, report data may be sent to that endpoint. Check the report and settings before sending.</p>
+
+  <h3>Why does a cleaned image look different?</h3>
+  <p>Some formats are re-encoded to remove metadata. This can change quality or format, and animation or special data may be lost. Keep an original backup.</p>
+
+  <h3>How do I restore Pro?</h3>
+  <p>Use the Pro or purchase screen in the app while signed in to the Google Play account used for the purchase. Make sure Google Play is available and connected. If the purchase is not restored, email support with the app version and a brief description. Never send passwords or payment-card details.</p>
+
+  <h3>How do I request a refund?</h3>
+  <p>Refund requests for Google Play purchases are handled through Google Play under its current refund policies and applicable law. Use Google Play's purchase history or its official help flow.</p>
+
+  <h3>How do I report a bug?</h3>
+  <p>Email support with the steps to reproduce it, what you expected, what happened and any error message. Remove personal information from screenshots before attaching them.</p>
+
+  <footer>
+    <p>Developer: Puwer Studio</p>
+    <p>© 2026 Puwer Studio. All rights reserved.</p>
+  </footer>
 </body>
 </html>

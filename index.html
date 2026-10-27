@@ -2,15 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MetaCheck Legal Documents</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaCheck — Legal Documents</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .doc-section {
+            margin-bottom: 24px;
+        }
+        .section-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #adb5bd;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .links-group {
+            display: flex;
+            gap: 12px;
+        }
+        a {
+            flex: 1;
+            text-align: center;
+            padding: 12px;
+            background-color: #f1f3f5;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        a:hover {
+            background-color: #e9ecef;
+            color: #212529;
+        }
+    </style>
 </head>
 <body>
-    <h1>MetaCheck Legal Documents</h1>
-    <ul>
-        <li><a href="PRIVACY_POLICY_EN.md">Privacy Policy (English)</a></li>
-        <li><a href="PRIVACY_POLICY_RU.md">Политика конфиденциальности (Русский)</a></li>
-        <li><a href="TERMS_EN.md">Terms of Service (English)</a></li>
-        <li><a href="TERMS_RU.md">Условия использования (Русский)</a></li>
-    </ul>
+    <div class="container">
+        <h1>MetaCheck</h1>
+        <div class="subtitle">Legal Documents & Policies</div>
+        
+        <div class="doc-section">
+            <div class="section-title">Privacy Policy</div>
+            <div class="links-group">
+                <a href="PRIVACY_POLICY_EN.md">English Version</a>
+                <a href="PRIVACY_POLICY_RU.md">Русская версия</a>
+            </div>
+        </div>
+
+        <div class="doc-section">
+            <div class="section-title">Terms of Service</div>
+            <div class="links-group">
+                <a href="TERMS_EN.md">English Version</a>
+                <a href="TERMS_RU.md">Русская версия</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

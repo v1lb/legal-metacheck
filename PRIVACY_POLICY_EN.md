@@ -1,7 +1,12 @@
+---
+title: "Privacy Policy"
+lang: en
+---
+
 # Privacy Policy for MetaCheck
 
 **Effective Date:** 2026-10-27
-**Developer:** Pewer Studio 
+**Developer:** Puwer Studio 
 **Contact:** werk9886@gmail.com
 
 ---

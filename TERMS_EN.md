@@ -1,7 +1,12 @@
+---
+title: "Terms of Use"
+lang: en
+---
+
 # MetaCheck Terms of Use
 
 **Effective date:** 2026-10-27
-**Developer:** Pewer Studio 
+**Developer:** Puwer Studio 
 **Contact:** werk9886@gmail.com
 
 **By using MetaCheck, you agree to these Terms. If you do not agree, stop using the app.**

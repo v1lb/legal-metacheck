@@ -3,45 +3,52 @@ title: "Privacy Policy"
 lang: en
 ---
 
-# Privacy Policy for MetaCheck
+# MetaCheck Privacy Policy
 
-**Effective Date:** 2026-10-27
-**Developer:** Puwer Studio 
+**Effective date:** 2026-10-28
+**Developer:** Puwer Studio
 **Contact:** werk9886@gmail.com
 
----
+## 1. In short
+MetaCheck shows image metadata (EXIF, GPS, XMP, PNG text chunks, Content Credentials), looks for signs of AI generation in it, and lets you save a copy with cleaned metadata. The analysis runs on your device. The developer has no servers that the app sends your images, metadata or history to. The app has no user accounts, ads or analytics.
 
-## 1. Overview
-MetaCheck displays image metadata (EXIF, XMP, PNG text blocks, Content Credentials) and detects signs of AI generation. All core file analysis is performed locally on your device.
+## 2. What is stored on your device
+- **Images.** Images you choose (from the system file picker, via Share, or from a camera shot) are processed on the device. The app does not upload them. Camera shots are kept temporarily in the app cache and deleted automatically.
+- **Report history.** If history is on, reports are stored only on the device, encrypted. They may contain file metadata, including GPS coordinates. You can turn history off and clear it in Settings.
+- **Settings and API keys.** Stored locally. API keys are encrypted with Android Keystore.
+- **File copies.** Cleaned copies are saved where you choose in the system dialog. The original file is not changed by default.
 
-## 2. Data Processed Locally
-*   **Images:** Images you select, capture via camera, or share with the app are processed strictly on-device. The app does not upload your images to any server or store copies of them. Camera snapshots are kept temporarily in the app's cache and are deleted automatically.
-*   **Analysis Reports (History):** If the history feature is enabled, reports are stored exclusively on your device in an encrypted format. These reports may contain file metadata, including GPS coordinates. You can disable or clear this history at any time in the app's settings.
-*   **Settings and API Keys:** Your settings and API keys are stored locally. API keys are encrypted using the Android Keystore system.
+## 3. When data leaves the device
+By default the app transmits nothing. Data is sent only after your own action:
 
-## 3. Data Transmission and Third-Party Services
-By default, the app does not transmit any data. Data sharing only occurs based on your explicit actions:
+- **OpenStreetMap map.** If an image contains GPS coordinates, the map is off. After you tap "Show map (request to OpenStreetMap)" the app downloads map tiles from OpenStreetMap servers over HTTPS. Tiles are requested by number, so the servers can infer the approximate area of the point shown, and they also see your IP address and the app name. The image and its metadata are not sent. Downloaded tiles are cached on the device and removed with the cache or the app. OpenStreetMap Foundation privacy policy: https://osmfoundation.org/wiki/Privacy_Policy
+- **Address search.** If you tap "Find on map", the text you typed is handled by your phone's system geocoder (on many devices this is a Google service). The app itself does not store or forward the query.
+- **API check (optional).** If you turn it on in Settings, enter a server address and tap "Check via API", a text JSON report is sent to that address. It does not contain the image, and GPS coordinates are excluded unless you enable them separately. The server you choose receives the data; the MetaCheck developer does not.
+- **Purchases.** Pro is bought through Google Play, and Google processes payment data. The app only receives confirmation of the purchase.
 
-*   **OpenStreetMap:** If an image contains GPS coordinates, the map is initially disabled. Once you click "Show Map (Request OpenStreetMap)", the app downloads map tiles from OpenStreetMap servers via HTTPS. Tiles are requested by ID numbers, meaning OpenStreetMap servers can infer the approximate area being viewed, and will see your IP address and the app's user-agent. Your actual image and its metadata are never sent to OpenStreetMap. Downloaded tiles are cached locally and deleted when you clear the app cache or uninstall the app. For more information, see the OpenStreetMap Foundation Privacy Policy: https://osmfoundation.org
-*   **Address Search:** If you use the "Find on Map" feature, the entered text is processed by your device's system geocoder (on most Android devices, this is handled by Google Services). The app does not collect, store, or transmit this search query.
-*   **API Verification:** If you explicitly enable API verification in the settings, provide a server URL, and click "Verify via API", a JSON report will be sent to that specific address. The report contains data fields only—it does not include the image itself, and GPS coordinates are excluded unless you specifically enable them. This data is handled by the server endpoint of your choice; the developer of MetaCheck does not receive this data.
+OpenStreetMap and Google servers may be located outside your country.
 
-## 4. In-App Purchases
-The premium Pro version is processed through Google Play. All billing and payment details are handled securely by Google. The app only receives confirmation of the successful purchase. If you manually enter a license key, it is stored on your device in an encrypted format.
+## 4. Android permissions
+- **Internet and network state** — only to load the map when you press the button, to send an optional report to your address, and to check whether a network is available.
+- **Access to location in media (ACCESS_MEDIA_LOCATION)** — to read the coordinates stored in your photos. Coordinates are processed on the device.
+- **Google Play billing (BILLING)** — to make and verify the Pro purchase.
 
-## 5. What the App Does Not Do
-MetaCheck does not require user accounts. It contains **no advertisements, no user analytics tracking, and no third-party SDKs** designed for data collection.
+The app does not request direct access to your gallery or camera: files are chosen and saved through system dialogs, and photos are taken by your phone's camera app.
 
-## 6. Device Permissions Required
-*   **Internet Access:** Used exclusively to download OpenStreetMap tiles upon your request or to send reports to a user-defined API endpoint.
-*   **Access Media Location (ACCESS_MEDIA_LOCATION):** Required to read geographic coordinates embedded within your photos. This data is processed strictly on your device.
-*   *Note:* The app does not request direct access to your photos or camera. Files are chosen and saved via system-provided file pickers, and photos are captured using your device's system camera application.
+## 5. What the app does not do
+The app does not create accounts, show ads, use analytics or third-party tracking SDKs, or sell or share data with ad networks. It uses the Google Play Billing and osmdroid libraries; a list of components is available in the app.
 
-## 7. Data Retention and Deletion
-You can clear your history within the app settings. Since all data is stored locally, completely uninstalling the app will automatically delete all stored configuration data, cached files, and history.
+## 6. Storage and deletion
+All data is stored on your device. You can delete reports in Settings. Uninstalling the app erases settings, cache (including the map cache) and history.
 
-## 8. Children's Privacy
-MetaCheck is not intended to collect data from children, and it does not actively collect any personally identifiable information.
+## 7. Your rights
+The developer does not receive your images, metadata or history, so in normal use of the app the developer does not process your personal data. If you email support, we use your address and message only to reply and delete them on request. You have the right to request access, correction and deletion of your data, to object to processing, and to complain to the data protection authority in your country (in Italy, the Garante per la protezione dei dati personali).
 
-## 9. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
+## 8. Children
+The app is not intended to collect data about children and does not knowingly collect personal information.
+
+## 9. Changes
+We may update this policy. Changes are published on this page with a new effective date.
+
+## 10. Contact
+Puwer Studio, werk9886@gmail.com

@@ -29,7 +29,7 @@ layout_kind: home
 <p>No. It reads labels inside the file: C2PA, IPTC, generation parameters and generator names. Social networks and messengers strip these labels, so for such images the app says there is no data. Missing labels do not prove a photo is real, and a C2PA signature is not verified.</p></details>
 
 <details class="faq"><summary>Does MetaCheck upload my photos?</summary>
-<p>No. Images are processed on your device. Data leaves the phone only through your own actions: the map loads after you press its button (the map provider, MapTiler, sees your IP address and the approximate area of the point), address search uses your phone's system geocoder, "Send without metadata" passes a cleaned copy to the app you choose, and a JSON report goes only to a server you configured yourself.</p></details>
+<p>No. Images are processed on your device. Data leaves the phone only through your own actions: the map loads after you press its button (the map provider, MapTiler, sees your IP address and the location of the point shown on the map), address search uses your phone's system geocoder, "Send without metadata" passes a cleaned copy to the app you choose, and a JSON report goes only to a server you configured yourself.</p></details>
 
 <details class="faq"><summary>Why is GPS not shown?</summary>
 <p>Photos from messengers usually have location removed. Open the original from your camera and allow "Access to media location" when Android asks — without it Android 10+ hides the coordinates from apps. On some phones location tagging must be enabled in the camera settings.</p></details>
@@ -79,7 +79,7 @@ layout_kind: home
 <p>Нет. Приложение читает метки внутри файла: C2PA, IPTC, параметры генерации и названия генераторов. Соцсети и мессенджеры стирают метки, поэтому для таких картинок приложение скажет, что данных нет. Отсутствие меток не доказывает, что фото настоящее, а подпись C2PA не проверяется.</p></details>
 
 <details class="faq"><summary>Загружает ли MetaCheck мои фото?</summary>
-<p>Нет. Изображения обрабатываются на устройстве. Данные уходят с телефона только по вашему действию: карта загружается после нажатия кнопки (поставщик карты MapTiler видит ваш IP-адрес и примерный район точки), поиск адреса использует системный геокодер, «Отправить без метаданных» передаёт очищенную копию выбранному вами приложению, а JSON-отчёт уходит только на сервер, который вы указали сами.</p></details>
+<p>Нет. Изображения обрабатываются на устройстве. Данные уходят с телефона только по вашему действию: карта загружается после нажатия кнопки (поставщик карты MapTiler видит ваш IP-адрес и место точки, показанной на карте), поиск адреса использует системный геокодер, «Отправить без метаданных» передаёт очищенную копию выбранному вами приложению, а JSON-отчёт уходит только на сервер, который вы указали сами.</p></details>
 
 <details class="faq"><summary>Почему не показывается GPS?</summary>
 <p>Фото из мессенджеров обычно уже без геометок. Откройте оригинал с камеры и разрешите «Доступ к местоположению в медиафайлах», когда Android спросит: без этого Android 10+ скрывает координаты от приложений. На некоторых телефонах геометки нужно включить в настройках камеры.</p></details>

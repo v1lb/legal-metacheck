@@ -41,7 +41,7 @@ layout_kind: home
 <p>Text EXIF fields (author, camera, copyright, description) are ASCII by the standard, so non-Latin letters would turn into "?". Use Latin letters and write "(c)" instead of "©".</p></details>
 
 <details class="faq"><summary>What is free and what is Pro?</summary>
-<p>Free: analysis, metadata viewer, privacy score, GPS Privacy Shield, cleaning and editing up to 75 photos per day (UTC), the last 10 reports in history. Pro (one-time purchase, no subscription): no daily limit, batch cleaning of up to 50 photos, PDF and JSON export, 50 reports in history, sending a report to your own API.</p></details>
+<p>Free: analysis, metadata viewer, privacy score, GPS Privacy Shield, cleaning and editing up to 10 photos per day (UTC), the last 10 reports in history. Pro (one-time purchase, no subscription): no daily limit, batch cleaning of up to 50 photos, PDF and JSON export, 50 reports in history, sending a report to your own API.</p></details>
 
 <details class="faq"><summary>How do I restore Pro or get a refund?</summary>
 <p>Open the Pro screen while signed in to the Google Play account used for the purchase; Pro is restored automatically. Refunds are handled by Google Play under its rules, through the order history of your Google account. Never send passwords or card details to support.</p></details>
@@ -91,7 +91,7 @@ layout_kind: home
 <p>Текстовые поля EXIF (автор, камера, права, описание) по стандарту хранятся в ASCII, и кириллица превратилась бы в «?». Пишите латиницей, вместо «©» используйте «(c)».</p></details>
 
 <details class="faq"><summary>Что бесплатно, а что в Pro?</summary>
-<p>Бесплатно: анализ, просмотр метаданных, индекс приватности, GPS Privacy Shield, очистка и правка до 75 фото в сутки (UTC), в истории видны 10 последних отчётов. Pro (разовая покупка, без подписки): без дневного лимита, пакетная очистка до 50 фото, экспорт PDF и JSON, 50 отчётов в истории, отправка отчёта в ваш API.</p></details>
+<p>Бесплатно: анализ, просмотр метаданных, индекс приватности, GPS Privacy Shield, очистка и правка до 10 фото в сутки (UTC), в истории видны 10 последних отчётов. Pro (разовая покупка, без подписки): без дневного лимита, пакетная очистка до 50 фото, экспорт PDF и JSON, 50 отчётов в истории, отправка отчёта в ваш API.</p></details>
 
 <details class="faq"><summary>Как восстановить Pro или вернуть деньги?</summary>
 <p>Откройте экран Pro, войдя в тот аккаунт Google Play, с которого покупали: Pro восстановится сам. Возвраты оформляются через Google Play по его правилам, в истории заказов аккаунта Google. Не присылайте в поддержку пароли и данные карт.</p></details>

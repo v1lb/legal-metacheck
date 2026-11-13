@@ -1,0 +1,7 @@
+# Языки документации Rider Netto. Новый язык: строка здесь, блок в ui и папка rider-netto/<code>/.
+langs:
+  - { code: en, name: English, dir: ltr }
+  - { code: ru, name: Русский, dir: ltr }
+ui:
+  en: { home: Help, faq: Questions, tips: Tips, privacy: Privacy, language: Language, tagline: "What you really earn per hour" }
+  ru: { home: Помощь, faq: Вопросы, tips: Советы, privacy: Конфиденциальность, language: Язык, tagline: "Сколько ты реально зарабатываешь в час" }
